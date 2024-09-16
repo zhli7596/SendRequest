@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Menu/etc/menu.xsd">
+    <menu>
+        <add id="Magento_SendRequest::menu"
+             title="Send HTTP Request"
+             module="Magento_SendRequest"
+             sortOrder="80"
+             resource="Magento_Backend::content"/>
+
+        <add id="Magento_SendRequest::send"
+             title="Send"
+             module="Magento_SendRequest"
+             sortOrder="0"
+             resource="Magento_SendRequest::send"
+             parent="Magento_SendRequest::menu"
+             action="magentosendrequest/sendrequest/index"/>
+    </menu>
+</config>
