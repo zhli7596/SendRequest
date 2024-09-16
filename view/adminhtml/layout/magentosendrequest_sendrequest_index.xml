@@ -2,7 +2,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
-            <block class="Magento\Backend\Block\Template" template="Magento_Sendrequest::helloworld.phtml"/>
+            <block class="Magento\Backend\Block\Template" template="Magento_SendRequest::helloworld.phtml"/>
         </referenceContainer>
     </body>
 </page>
