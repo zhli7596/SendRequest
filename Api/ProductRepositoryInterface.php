@@ -1,5 +1,5 @@
 <?php
-namespace magentosendrequest\Api;
+namespace Magento\SendRequest\Api;
 interface ProductRepositoryInterface
 {
     /**

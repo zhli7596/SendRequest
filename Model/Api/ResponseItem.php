@@ -1,6 +1,6 @@
 <?php
-namespace Dev\RestApi\Model\Api;
-use magentosendrequest\Api\ResponseItemInterface;
+namespace Magento\SendRequest\Model\Api;
+use Magento\SendRequest\Api\ResponseItemInterface;
 use Magento\Framework\DataObject;
 /**
  * Class ResponseItem

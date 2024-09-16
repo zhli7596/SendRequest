@@ -1,8 +1,8 @@
 <?php
-namespace Dev\RestApi\Model\Api;
-use magentosendrequest\Api\ProductRepositoryInterface;
-use magentosendrequest\Api\RequestItemInterfaceFactory;
-use magentosendrequest\Api\ResponseItemInterfaceFactory;
+namespace Magento\SendRequest\Model\Api;
+use Magento\SendRequest\Api\ProductRepositoryInterface;
+use Magento\SendRequest\Api\RequestItemInterfaceFactory;
+use Magento\SendRequest\Api\ResponseItemInterfaceFactory;
 use Magento\Catalog\Api\Data\ProductInterface;
 use Magento\Catalog\Model\ResourceModel\Product\Action;
 use Magento\Catalog\Model\ResourceModel\Product\CollectionFactory;
