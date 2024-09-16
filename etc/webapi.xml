@@ -2,13 +2,13 @@
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
     <route url="/V1/sendrequest/getProduct/:id" method="GET">
-        <service class="magentosendrequest\Api\ProductRepositoryInterface" method="getItem" />
+        <service class="Magento\SendRequest\Api\ProductRepositoryInterface" method="getItem" />
         <resources>
             <resource ref="Magento_SendRequest::products_get" />
         </resources>
     </route>
     <route url="/V1/sendrequest/setDescription" method="PUT">
-        <service class="magentosendrequest\Api\ProductRepositoryInterface" method="setDescription" />
+        <service class="Magento\SendRequest\Api\ProductRepositoryInterface" method="setDescription" />
         <resources>
             <resource ref="Magento_SendRequest::products_set_description" />
         </resources>
